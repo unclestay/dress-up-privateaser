@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html>
+  <body bgcolor="#FFF0F5">
   <head>
     <title>CSS/HTML Workshop with Privateaser</title>
     <h1>compute the price</h1>
   </head>
+  <hr />
   <body>
-    <p>
+    <h2>The price of bar</h2>
     <p>The booking price includes price per hour and price per person</p>
     <p><a href=" https://www.privateaser.com">Find the price!</a></p>
     <div id="bar">
-      <input class="js-name" type="text" placeholder="Bar name"/><br/>
-      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/><br/>
+      <input class="js-name" type="text" placeholder="Bar name"/>
+      <br/>
+      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
+      <br/>
       <input class="js-price-by-person" type="number" placeholder="Price by person"/><br/>
     </div>
     <hr />
     <div id="booker">
+      <h2>The booking information</h2>
       <input class="js-name" type="text" placeholder="Booker name"/><br/>
       <input class="js-time" type="number" placeholder="Time in h"/><br/>
       <input class="js-persons" type="number" placeholder="Persons"/><br/>
       <hr />
-      <p>Do you want to choose the Deductible Reduction
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/></p>
+      <p>
+        Do you want to choose the Deductible Reduction
+        <input class="js-option" type="checkbox" placeholder="Deductible option"/>
+        1 euro per person
+      </p>
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
